@@ -5,7 +5,7 @@ for i in range(1,limit+1):
      elif(i%3==0):
          print("biz")
      elif(i%5==0):
-         print("fiz")
+          print("fiz")
 
      else:
          print(i)
