@@ -23,6 +23,23 @@ print(strcnt(str))
 '''
 
 #3 print first and last cahracter of string
-
+'''
 str = input("enter string")
 print(str[0],str[1],str[-2],str[-1])
+'''
+#4 Replacing character with $
+'''
+def chn(str):
+    chr = str[0]
+    str = str.replace(chr,'$')
+    str = chr + str[1:]
+    return str
+
+
+str = input("enter string")
+print(chn(str))
+'''
+
+#5 manipulating string
+
+de
